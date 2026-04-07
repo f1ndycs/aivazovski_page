@@ -1,6 +1,6 @@
-.about {
+.about-section {
     background-color: var(--bg-main-grey);
-    padding: 60px 30px 100px;
+    padding: 60px 0px 100px;
     text-align: center;
     color: var(--color-main-black);
 }
@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 480px) {
+    .about-section {
+        padding: 50px 0px 60px;
+    }
     .about-subtitle-ru,
     .about-subtitle-en,
     .about-description-ru,
